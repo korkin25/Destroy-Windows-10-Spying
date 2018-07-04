@@ -20,7 +20,7 @@ after_build:
 - cmd: msbuild DWS.sln
 - cmd: md DWS-Build
 - cmd: copy DWS\bin\Release\DWS.exe DWS-Build
-- cmd: 7z a -tzip "DWS-build.zip" DWS-Build/*.*
+- cmd: 7z a -tzip "DWS-build-Win7881.zip" DWS-Build/*.*
 
 artifacts:
 - path: DWS-build-Win7881.zip
