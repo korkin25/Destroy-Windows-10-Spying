@@ -116,7 +116,7 @@ namespace DWS
             }
         }
 
-        /* 
+        /*
          * Feature animation is calculated borders.
          */
 
