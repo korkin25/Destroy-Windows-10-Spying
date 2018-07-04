@@ -1,0 +1,30 @@
+version: 2.2.2.2.{build}
+
+branches:
+  only:
+  - master
+skip_tags: true
+
+os: Visual Studio 2015
+configuration: Release
+
+clone_depth: 1
+clone_folder: C:\_Repos\DWS
+
+build:
+  project: DWS.sln
+  verbosity: minimal
+
+after_build:
+- cmd: msbuild DWS.sln
+- cmd: md DWS-Build
+- cmd: copy DWS\bin\Release\DWS.exe DWS-Build
+- cmd: 7z a -tzip "DWS-build.zip" DWS-Build/*.*
+
+artifacts:
+- path: DWS-build-Win7881.zip
+
+#deploy:
+#- provider: Environment
+#name: WohlnetFTP
+
