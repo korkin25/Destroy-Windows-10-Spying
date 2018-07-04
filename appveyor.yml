@@ -3,6 +3,7 @@ version: 2.2.2.2.{build}
 branches:
   only:
   - master
+  - Win7881
 skip_tags: true
 
 os: Visual Studio 2015
