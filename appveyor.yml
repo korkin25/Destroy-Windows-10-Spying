@@ -6,7 +6,7 @@ branches:
   - Win7881
 skip_tags: true
 
-os: Visual Studio 2015
+os: Visual Studio 2013
 configuration: Release
 
 clone_depth: 1
