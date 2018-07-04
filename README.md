@@ -1,21 +1,21 @@
-## [Latest Release](http://renessans.bz/)
+## [Latest Dev Build](https://ci.appveyor.com/project/Wohlstand/destroy-windows-10-spying)
 
 # Destroy Windows 10 Spying
 
 ### Features
-  
+
 - Remove all spyware modules
 - Remove spying apps
 - Add spying domains to hosts file!
 - Remove spying services
 - Remove Windows 10 Metro Apps
-- Support Windows 7/8/8.1/10 and Server 2008-2012 R2
+- Support Windows 7/8/8.1/10 and Server 2008-2012 R2 (on old builds)
 - Remove Office 2016 telemetry
 - Open Source!
 
 ### Copyright 2018 RENESSANS LLC
 
-[Twitter @renessans_bz](https://twitter.com/renessans_bz)
+[Twitter @nummerok](https://twitter.com/nummerok)
 
 ### License
 

