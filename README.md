@@ -9,7 +9,7 @@
 - Add spying domains to hosts file!
 - Remove spying services
 - Remove Windows 10 Metro Apps
-- Support Windows 7/8/8.1/10 and Server 2008-2012 R2 (on old builds)
+- -Support Windows 7/8/8.1/10 and Server 2008-2012 R2- (For those platforms please use version 2.2.2.2)
 - Remove Office 2016 telemetry
 - Open Source!
 
