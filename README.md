@@ -13,7 +13,7 @@
 - Remove Office 2016 telemetry
 - Open Source!
 
-### Copyright 2018 RENESSANS LLC
+### Copyright 2018 Nummer
 
 [Twitter @nummerok](https://twitter.com/nummerok)
 
