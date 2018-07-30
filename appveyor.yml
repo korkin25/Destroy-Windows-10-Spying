@@ -19,7 +19,7 @@ after_build:
 - cmd: msbuild DWS.sln
 - cmd: md DWS-Build
 - cmd: copy DWS\bin\Release\DWS.exe DWS-Build
-- cmd: copy updater\bin\Release\updater.exe DWS-Build
+# - cmd: copy updater\bin\Release\updater.exe DWS-Build
 - cmd: 7z a -tzip "DWS-build.zip" DWS-Build/*.*
 
 artifacts:
