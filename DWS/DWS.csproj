@@ -154,6 +154,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="lang\bg-BG.Designer.cs">
+      <DependentUpon>bg-BG.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="lang\en-US.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -230,6 +235,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ru-RU.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="lang\bg-BG.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>bg-BG.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="lang\en-US.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>en-US.Designer.cs</LastGenOutput>
@@ -277,7 +286,7 @@
     <PostBuildEvent>
     </PostBuildEvent>
   </PropertyGroup>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
