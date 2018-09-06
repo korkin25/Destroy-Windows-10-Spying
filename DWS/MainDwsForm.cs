@@ -2139,6 +2139,11 @@ Are you sure?", @"Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == 
                 _rm = ru_RU.ResourceManager; // change resource language manager.
                 comboBoxLanguageSelect.Text = @"ru-RU | Русский"; // set combobox text language.
             }
+            else if (currentlang.IndexOf("bg", StringComparison.Ordinal) > -1)
+            {
+                _rm = bg_BG.ResourceManager;
+                comboBoxLanguageSelect.Text = @"bg-BG | Български";
+            }
             else if (currentlang.IndexOf("fa", StringComparison.Ordinal) > -1)
             {
                 _rm = fr_FR.ResourceManager;
