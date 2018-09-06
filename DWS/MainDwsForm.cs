@@ -1618,6 +1618,10 @@ namespace DWS
                     _rm = ru_RU.ResourceManager;
                     ChangeLanguage();
                     break;
+                case "bg-BG":
+                    _rm = bg_BG.ResourceManager;
+                    ChangeLanguage();
+                    break;
                 case "fa-IR":
                     _rm = fa_IR.ResourceManager;
                     ChangeLanguage();
