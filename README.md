@@ -2,8 +2,13 @@
 
 # Destroy Windows 10 Spying
 
+### Disclaimer
+
+IF YOU NEED SKYPE, MARKET, XBOX APP, WMR OR ANY OTHER MICROSOFT APPS WITH INTERNET FEATURES DON'T INSTALL DWS!
+
+
 ### Features
-  
+
 - Remove all spyware modules
 - Remove spying apps
 - Add spying domains to hosts file!
