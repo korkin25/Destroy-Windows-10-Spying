@@ -18,9 +18,11 @@ IF YOU NEED SKYPE, MARKET, XBOX APP, WMR OR ANY OTHER MICROSOFT APPS WITH INTERN
 - Remove Office 2016 telemetry
 - Open Source!
 
-### Copyright 2018 Nummer
+### Credits
 
-[Twitter @nummerok](https://twitter.com/nummerok)
+* **Original creator:** Copyright 2018 Nummer ~~[Twitter @nummerok](https://twitter.com/nummerok)~~ (Twitter account no more exists)
+* **Current maintainer:** Copyright 2018-2019 [Wohlstand](https://github.com/Wohlstand)
+
 
 ### License
 
@@ -36,6 +38,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-### Donate:
-## BTC: 1GvGof9C9HDwJKgTw4WJJiTirPc5qfPz5g
-## ETH: 0x8f9c91041cf42c61693d47d6a1c3977f23c80a30
+### Donate (Accounts of original creator who no more maintains this):
+
+* ~~BTC: 1GvGof9C9HDwJKgTw4WJJiTirPc5qfPz5g~~
+* ~~ETH: 0x8f9c91041cf42c61693d47d6a1c3977f23c80a30~~
