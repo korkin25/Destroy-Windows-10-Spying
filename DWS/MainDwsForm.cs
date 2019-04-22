@@ -1789,6 +1789,7 @@ namespace DWS
             "3093983",
             "3102810",
             "3112336",
+            "4493132",//Reminder about comming Windows 7 end-of-life
             "971033",
             "976932"
             // THX rgadguard
