@@ -224,7 +224,7 @@ namespace DWS
             "deploy.static.akamaitechnologies.com",
             "device.auth.xboxlive.com",
             "dmd.metaservices.microsoft.com",
-            "dns.msftncsi.com",
+            // "dns.msftncsi.com", //REQUIRED for NCSI check (Check "is Internet available?")
             "feedback.microsoft-hohm.com",
             "feedback.search.microsoft.com",
             "feedback.windows.com",
@@ -254,8 +254,8 @@ namespace DWS
             "wdcpalt.microsoft.com",
             "win10-trt.msedge.net",
             "wscont.apps.microsoft.com",
-            "www.msftconnecttest.com",
-            "www.msftncsi.com",
+            // "www.msftconnecttest.com",  //REQUIRED for NCSI check (Check "is Internet available?")
+            // "www.msftncsi.com",
             "a-0001.a-msedge.net",
             "a-0001.dc-msedge.net",
             "a-0002.a-msedge.net",
