@@ -812,7 +812,7 @@ namespace DWS
                     "deploy.static.akamaitechnologies.com",
                     "device.auth.xboxlive.com",
                     "dmd.metaservices.microsoft.com",
-                    "dns.msftncsi.com",
+                    // "dns.msftncsi.com", // Needed for NCSI (Check "Is Interned Available?")
                     "feedback.microsoft-hohm.com",
                     "feedback.search.microsoft.com",
                     "feedback.windows.com",
@@ -820,7 +820,7 @@ namespace DWS
                     "insiderppe.cloudapp.net",
                     "licensing.mp.microsoft.com",
                     "mediaredirect.microsoft.com",
-                    "msftncsi.com",
+                    // "msftncsi.com", // Needed for NCSI (Check "Is Interned Available?")
                     "officeclient.microsoft.com",
                     "oneclient.sfx.ms",
                     "pti.store.microsoft.com",
@@ -842,8 +842,8 @@ namespace DWS
                     "wdcpalt.microsoft.com",
                     "win10-trt.msedge.net",
                     "wscont.apps.microsoft.com",
-                    "www.msftconnecttest.com",
-                    "www.msftncsi.com",
+                    // "www.msftconnecttest.com", // Needed for NCSI (Check "Is Interned Available?")
+                    // "www.msftncsi.com",
                     "a-0001.a-msedge.net",
                     "a-0001.dc-msedge.net",
                     "a-0002.a-msedge.net",
