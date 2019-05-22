@@ -18,6 +18,17 @@ IF YOU NEED SKYPE, MARKET, XBOX APP, WMR OR ANY OTHER MICROSOFT APPS WITH INTERN
 - Remove Office 2016 telemetry
 - Open Source!
 
+### Versions 2.x and RE-1.x
+
+DWS has two different variants are both supported:
+- The **2.2.2.2.x** is based on the original DWS made by Nummer. Supportd Windows 7 / 8 / 8.1 and 10
+- The **RE-1.0.x.x** is based on reworked version made after Nummer. Supports Windows 10 only
+
+If you are using Windows 10 it's recommended to use **RE-1.0.2.0.x** builds.
+
+For Windows 7 / 8 / 8.1 please use **2.2.2.2.x** builds.
+
+
 ### Credits
 
 * **Original creator:** Copyright 2018 Nummer ~~[Twitter @nummerok](https://twitter.com/nummerok)~~ (Twitter account no more exists)
