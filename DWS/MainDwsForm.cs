@@ -807,7 +807,7 @@ namespace DWS
                     "choice.microsoft.com",
                     "choice.microsoft.com.nsatc.net",
                     "client.wns.windows.com",
-                    "client-s.gateway.messenger.live.com",
+                    // "client-s.gateway.messenger.live.com", // Needed for Skype lonig. Skype won't login if this banned
                     "clientconfig.passport.net",
                     "deploy.static.akamaitechnologies.com",
                     "device.auth.xboxlive.com",
