@@ -1766,6 +1766,7 @@ namespace DWS
         private readonly string[] _updatesnumberlist =
         {
             "2952664",
+            "4507456",// Pseudo-security update (see https://github.com/Wohlstand/Destroy-Windows-10-Spying/issues/6)
             "2976978",
             "2990214",
             "3021917",
