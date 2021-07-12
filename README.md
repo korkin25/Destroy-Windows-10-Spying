@@ -13,7 +13,7 @@ IF YOU NEED SKYPE, MARKET, XBOX APP, WMR OR ANY OTHER MICROSOFT APPS WITH INTERN
 - Remove spying apps
 - Add spying domains to hosts file!
 - Remove spying services
-- Remove Windows 10 Metro Apps
+- ~Remove Windows 10 Metro Apps~ (Unavailable in RE version, use the version 2.2.2.2)
 - ~Support Windows 7/8/8.1/10 and Server 2008-2012 R2~ (For those platforms please use version 2.2.2.2)
 - Remove Office 2016 telemetry
 - Open Source!
