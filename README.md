@@ -2,7 +2,7 @@
 -----------------
 Hello!
 
-Since a while ago, this project stays unmaintained. Additionally, this project got been very and very outdated. So, use it on old systems only and **use it at your own risk**.
+Since a while ago, this project stays unmaintained. Additionally, this project has become very and very outdated. So, use it on old systems only and **use it at your own risk**.
 - Windows 10 got a lot of updates which possibly added lots of new spyware, and additionally, Windows 11 was out and needs a lot of further investigation to get it supported.
 - I don't use Windows as a primary OS by myself since the end of 2014 (I moved to [Linux Mint](https://linuxmint.com/) distribution).
 - There is a lot of other similar projects that has better support and are actively maintained.
