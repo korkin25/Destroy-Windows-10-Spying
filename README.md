@@ -1,4 +1,21 @@
-## [Latest Dev Build](https://ci.appveyor.com/project/Wohlstand/destroy-windows-10-spying)
+## ⚠️ Project is unmaintained! ⚠️
+-----------------
+Hello!
+
+Since a while ago, this project stays unmaintained. Additionally, this project got been very and very outdated. So, use it on old systems only and **use it at your own risk**.
+- Windows 10 got a lot of updates which possibly added lots of new spyware, and additionally, Windows 11 was out and needs a lot of further investigation to get it supported.
+- I don't use Windows as a primary OS by myself since the end of 2014 (I moved to [Linux Mint](https://linuxmint.com/) distribution).
+- There is a lot of other similar projects that has better support and are actively maintained.
+- Nobody around the team (including me) has any interest on supporting this project.
+
+So, this project lost all its sense and will be closed.
+
+Everything will stay open for historical purposes, or if somebody wants to pick this up for attempts to craft something brand-new.
+
+Thank you all for the support, I wish you good luck in all future works!
+
+-----------------
+## ⚠️ Project is unmaintained! ⚠️
 
 # Destroy Windows 10 Spying
 
